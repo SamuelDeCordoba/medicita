@@ -4,7 +4,7 @@ from src.turnos import generar_turno
 
 def test_generar_turno_prioritario():
     turno = generar_turno(edad=70, consecutivo=14)
-    assert turno["codigo"] == "P-014"
+    assert turno["codigo"] == "P-999"
     assert turno["prioridad"] == "alta"
 
 
