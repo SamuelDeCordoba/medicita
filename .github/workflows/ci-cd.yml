@@ -97,3 +97,5 @@ jobs:
           echo "docker pull ghcr.io/${{ github.repository }}:latest"
           echo "docker run -d --name medicita -p 8000:8000 ghcr.io/${{ github.repository }}:latest"
           echo "Despliegue completado exitosamente"
+
+# PRUEBA EN VIDEO
